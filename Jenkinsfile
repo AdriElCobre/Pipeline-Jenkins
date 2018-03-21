@@ -4,10 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Hello!'
-        waitUntil() {
-          echo 'Adri'
-        }
-        
       }
     }
   }
